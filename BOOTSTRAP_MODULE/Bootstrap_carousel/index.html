@@ -37,11 +37,12 @@
 </head>
 
 <body>
-
-  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+  <!-- data-ride="carousal" means auto side if it is false then it wont
+  data-interval ="1000" mean change slide auto in 1000milisec and last data-pause="hover" means it will pause when you put cursor                     -->
+  <div id="testomonial-carousel" class="carousel slide" data-interval="false"  >
     <div class="carousel-inner">
       <div class="carousel-item active" style="background-color: yellow;">
-        <img src="..." class="d-block w-100" alt="..." >
+          <img src="..." class="d-block w-100" alt="...">
       </div>
       <div class="carousel-item" style="background-color: blue;">
         <img src="..." class="d-block w-100" alt="..." >
@@ -49,8 +50,18 @@
       <div class="carousel-item" style="background-color: red;">
         <img src="..." class="d-block w-100" alt="..." >
       </div>
+      <button class="carousel-control-prev" type="button" data-target="#testomonial-carousel" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-target="#testomonial-carousel" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </button>
     </div>
   </div>
+
+
 
 </body>
 

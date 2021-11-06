@@ -8,7 +8,7 @@ body{
     color: #fff;
 }
 .container-fluid{
-    padding: 3% 15%;
+    padding: 3% 15% 7%;
 }
 
 h1{
@@ -66,11 +66,15 @@ p{
 .title-image{
     width:60%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 30%;
 }
 
 /* Features section*/
 #features{
     padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
 }
 
 .feature-box{
@@ -87,10 +91,14 @@ p{
 }
 /* Testimonial section */
 #testimonials{
-    padding: 7% 15%;
+    /* padding: 7% 15%; move to carousel-item to make arrow out of text*/
     text-align: center;
     background-color: #ef8172 ;
     color: #fff;
+}
+.carousel-item{
+    padding: 7% 15%;
+
 }
 .testimonial-image{
     width: 10%;
@@ -109,3 +117,47 @@ p{
     margin: 20px 20px 50px;
 
 }
+/* pricing section */
+#pricing{
+    padding: 100px;
+}
+
+.pricing-column{
+    padding: 3% 2%;
+    text-align: center;
+}
+
+/* call to action section */
+#cta{
+    background-color: #ff4c68 ;
+    color: #fff;
+    padding: 7% 15%;
+    text-align: center;
+}
+.cta-heading{
+    font-weight: 900;
+    font-size: 3.5rem ;
+    line-height: 1.2;
+}
+
+/* footer section */
+#footer{
+    text-align: center;
+    padding: 10%;
+}
+
+.social-icon{
+    padding: 20px 10px ;
+}
+
+
+@media (max-width:1028px){
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+

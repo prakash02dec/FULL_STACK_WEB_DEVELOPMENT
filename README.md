@@ -17,7 +17,8 @@
 * [fontawesome](https://fontawesome.com/)
 * [ui-patterns](http://ui-patterns.com/patterns/WYSIWYG)
 * [Bootstrap Documentation](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-* []()
-* []()
+* [Bootsnipp](https://bootsnipp.com/) For code snippet
+* [Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
+
 
 
