@@ -11,12 +11,22 @@
     <title>Navbar</title>
   </head>
   <body>
-    <!-- navbar makes navbar area  -->
-    <!-- navbar-expand-(lg/sm/md/xl) to make navbar horizontal-->
-    <!-- bg-light to set background color -->
-    <nav class="navbar navbar-expand-lg ">
-      <!-- navbar-nav to make ul list part of nav system -->
-      <ul class="navbar-nav">
+    <!-- HTML nav element hold the navbar area section -->
+    <!-- class = "navbar"    (navbar area section style with css) -->
+    <!-- "navbar-expand-(lg/sm/md/xl)" (to make navbar horizontal)-->
+    <!-- "bg-light" (to set background color) -->
+    <!-- "navbar-light" (to change navbar text color) -->
+    <!-- light ,dark ,danger, link, warning ,etc -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark ">
+      <!-- navbar-nav to make nav bar -->
+      <!-- navbar-brand to add brand name or logo -->
+      <a class="navbar-brand" href="">Prakash</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <!-- "ml-auto" mean margin left -auto-->
+      <div class="navbar-collapse collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav ml-auto">
         <!-- nav-item for making option  -->
         <li class="nav-item">
           <!-- nav-link is used to make it appear like link -->
@@ -29,6 +39,7 @@
           <a class="nav-link" href="">Downloads</a>
         </li>
       </ul>
+    </div>
     </nav>
 
 
