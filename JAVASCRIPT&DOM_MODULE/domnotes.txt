@@ -1,0 +1,29 @@
+1. heading = document.firstElementChild.firstElementChild.LastElementChild; (it going like this to a target html)
+2. heading = innerHTML = " " (it will change the code or text inside html element )
+3. heading.style.color = "color name";
+4  document.querySelector("input").click();
+5. document.getElementsByTagName("li"); (it will give the array of all available specified element in html);
+6. document.getElementsByClassName("img"); (it will give the array of all available specified class name in html);
+7. document.getElementById("title"); (it will give the array of all available specified element in html);
+
+** you have to use index to change or use attribute of method
+
+8. document.querySelector(" ")
+
+** in querySelector we can use class id and tag.. also you can combine selector here
+** it will select first occurence
+
+9. querySelectorAll(" ")
+** for selecting multiple means index using compulsory
+
+
+mostly is same like css instead of - there is camelcasing..
+
+10. .classList (it give list of all class used in target element)
+11. .classList.Add("");
+12. .classList.Remove("");
+13. .classList.Toggle(""); (if already there then remove or vice versa);
+
+14. .attributes   (it will list out all the attributes)
+15. .getAttribute(""); (it will return value of target attribute)
+16. .setAttribute("attribute name" , "value"); (it will add or change the attribute in element)
