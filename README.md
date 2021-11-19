@@ -20,7 +20,7 @@
 * [Bootsnipp](https://bootsnipp.com/) For code snippet
 * [Mobile Friendly Test](https://search.google.com/test/mobile-friendly)
 * [Adobe color](https://color.adobe.com/create) For getting color wheel
-
+* [minify](https://www.minifier.org/)
 
 
 
