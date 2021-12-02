@@ -136,7 +136,9 @@ app.get("/submit",function(req,res){
 })
 app.post("/submit",function(req,res){
     const secretSubmitted = req.body.secret;
-    User.findOne({id : req.user.id}, function(err, foundUser){
+
+    User.findById(req.user.id, function(err, foundUser){
+        
         if (err) {
           console.log(err);
         } else {
