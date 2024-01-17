@@ -1,0 +1,8 @@
+{
+    "livePreview.customExternalBrowser": "Default",
+    "livePreview.tasks.runTaskWithExternalPreview": true,
+    "livePreview.showServerStatusNotifications": true,
+    "livePreview.debugOnExternalPreview": true,
+    "liveServer.settings.multiRootWorkspaceName": "HTML",
+    "livePreview.defaultPreviewPath": "/4.3 HTML Porfolio Project/solution.html"
+}

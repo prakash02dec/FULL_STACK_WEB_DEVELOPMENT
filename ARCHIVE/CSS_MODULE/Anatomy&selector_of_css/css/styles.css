@@ -1,0 +1,39 @@
+/* ===============Tag Selector================== */
+/* 
+who{
+what:how;
+}
+*/
+h1 {
+    font-size: 200px;
+    color: red; 
+}
+img{
+    background-color: blue;
+}
+img:hover{
+    background-color: yellow;
+}
+
+/* ============Class Selector=============== */
+/* use class when you want to apply t same style to a group of related item  */
+.baccon{
+    background-color: blue;
+}
+.broccoli{
+    background-color: red;
+}
+
+.circular{
+    border-radius: 100%;
+}
+
+
+/* ============Id Selector======================== */
+/* use id when you want to apply style to specific element */
+#heading{
+    color: blue;
+}
+
+
+/* we can use multiple class in an element but we cant use multiple id element */
